@@ -23,6 +23,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Application\project-backend-test\project-backend-test.csproj" />
+    <ProjectReference Include="..\Data\Data.csproj" />
   </ItemGroup>
 
 </Project>

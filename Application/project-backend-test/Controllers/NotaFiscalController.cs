@@ -60,7 +60,7 @@ namespace project_backend_test.Controllers
 
         // PUT: api/NotaFiscal/5
         [HttpPut("{id}")]
-        public async Task<IActionResult> PutNotaFiscal(long id, NotaFiscal notaFiscal)
+        public async Task<IActionResult> AtualizarNotaFiscal(long id, NotaFiscal notaFiscal)
         {
             if (id != notaFiscal.NotaFiscalId)
             {
